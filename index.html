@@ -1,60 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marinho & Souza</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="MS.jpeg" type="image/x-icon">
+    <script src="index.js"></script>
+    <title>Landing Page</title>
+
 </head>
+
 <body>
 
-<!-- TOPO VERMELHO -->
-<section class="topo">
-    <img src="imagens/logo.png" alt="Logo">
-</section>
+    <header>
+        <nav class="menu">
+            <a href="#sobre">Escritório</a>
+            <a href="#equipe">Profissionais</a>
+            <a href="#especialidades">Especialidades</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
 
-<!-- CURVA -->
-<div class="curva"></div>
+    <section class="hero">
+        <img src="LogoM2-text.png" id="banner">
+    </section>
 
-<!-- FOTO -->
-<div class="foto-container">
-    <div class="foto-borda">
-        <img src="imagens/foto.jpg" alt="Foto">
-    </div>
-</div>
+    <main>
+        <section id="sobre" class="secao" style="background-color: #8b0101;">
+            <h2>Sobre o Escritório</h2>
+            <div class="line"></div>
+            <p class="section-info">
+                ⚖️ Escritório de Advocacia Full Service.<br>
+                🏛️ Civil, Consumidor, Família, Empresarial, Previdenciário, Trabalhista e Tributário.
+            </p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.952315831168!2d-60.012205025269814!3d-3.1073164968682447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c05eeb29cd1d9%3A0x1d01b5a63465f781!2sMarinho%20%26%20Souza%20Advogados%20e%20Associados!5e0!3m2!1spt-BR!2sbr!4v1767840144138!5m2!1spt-BR!2sbr" 
+                    width="350px" height="350px" style="margin: auto; align-items: center; "></iframe>
+        </section>
+        <section class="hero" style=
+        "
+            height: 30vh; 
+            background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('forum.jpg');    
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-position: center 50px;
+        "></section>
 
-<!-- TEXTO -->
-<section class="dados">
-    <h1>NOME COMPLETO AQUI</h1>
-    <h2>OAB UF Nº</h2>
-</section>
+        <section id="equipe" class="secao">
+            <h2>Equipe</h2>
+            <div class="line"></div>
+            <div class="container">
+                <div class="container-equipe">
+                    <img src="clau.png" id="container-foto">
+                    <p class="container-equipe-nome">Claudevan de Souza</p>
+                    <p class="container-equipe-sub">OAB AM 7.800</p>
+                    <p class="container-equipe-info">Telefone: (92) 99123-4567</p>
+                    <p class="container-equipe-info">Email: claudevanadv@gmail.com</p>
+                </div>
 
-<!-- BOTÕES -->
-<section class="acoes">
+                <div class="container-equipe">
+                    <img src="clau.png" id="container-foto">
+                    <p class="container-equipe-nome">Claudevan de Souza</p>
+                    <p class="container-equipe-sub">OAB AM 7.800</p>
+                    <p class="container-equipe-info">Telefone: (92) 99123-4567</p>
+                    <p class="container-equipe-info">Email: claudevanadv@gmail.com</p>
+                </div>
 
-    <a href="#" class="acao">
-        <span class="icone telefone"></span>
-        <span>TELEFONE</span>
-    </a>
+                <div class="container-equipe">
+                    <img src="clau.png" id="container-foto">
+                    <p class="container-equipe-nome">Claudevan de Souza</p>
+                    <p class="container-equipe-sub">OAB AM 7.800</p>
+                    <p class="container-equipe-info">Telefone: (92) 99123-4567</p>
+                    <p class="container-equipe-info">Email: claudevanadv@gmail.com</p>
+                </div>
+            </div>
+        </section>
 
-    <a href="#" class="acao">
-        <span class="icone whatsapp"></span>
-        <span>WHATSAPP</span>
-    </a>
+        <section id="especialidades" class="secao" style="background-color: #8b0101;">
+            <h2>Sobre o Escritório</h2>
+            <p>Informações sobre o escritório.</p>
+        </section>
 
-    <a href="#" class="acao">
-        <span class="icone email"></span>
-        <span>E-MAIL</span>
-    </a>
+        <section id="contato" class="secao">
+            <h2>Sobre o Escritório</h2>
+            <p>Informações sobre o escritório.</p>>
+        </section>
 
-    <a href="#" class="acao">
-        <span class="icone localizacao"></span>
-        <span>LOCALIZAÇÃO</span>
-    </a>
-
-</section>
-
-<p class="clique">CLIQUE NOS ÍCONES</p>
+    </main>
 
 </body>
+
 </html>

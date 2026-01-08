@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+}
+
+/* TOPO */
+.topo {
+    background: #8b0000;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topo img {
+    max-width: 260px;
+}
+
+/* CURVA */
+.curva {
+    height: 80px;
+    background: #8b0000;
+    border-bottom-left-radius: 100% 80px;
+    border-bottom-right-radius: 100% 80px;
+}
+
+/* FOTO */
+.foto-container {
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-borda {
+    background: #8b0000;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.foto-borda img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* TEXTO */
+.dados {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.dados h1 {
+    color: #8b0000;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.dados h2 {
+    color: #8b0000;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* BOTÕES */
+.acoes {
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.acao {
+    background: #8b0000;
+    color: #fff;
+    text-decoration: none;
+    height: 52px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 22px;
+    gap: 18px;
+    letter-spacing: 2px;
+}
+
+/* ÍCONES */
+.icone {
+    width: 22px;
+    height: 22px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.telefone {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1v3.5a1 1 0 01-1 1C10.3 22 2 13.7 2 3.5a1 1 0 011-1H6.5a1 1 0 011 1c0 1.25.2 2.46.57 3.59a1 1 0 01-.25 1.01l-2.2 2.19z'/%3E%3C/svg%3E");
+}
+
+.whatsapp {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M20.52 3.48A11.85 11.85 0 0012 0C5.37 0 .02 5.35.02 11.98c0 2.11.55 4.17 1.6 6.01L0 24l6.18-1.62a11.9 11.9 0 005.82 1.49h.01c6.63 0 12-5.35 12-11.98a11.9 11.9 0 00-3.49-8.41z'/%3E%3C/svg%3E");
+}
+
+.email {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5z'/%3E%3C/svg%3E");
+}
+
+.localizacao {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='white' viewBox='0 0 24 24'%3E%3Cpath d='M12 2a7 7 0 00-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 00-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z'/%3E%3C/svg%3E");
+}
+
+/* RODAPÉ */
+.clique {
+    text-align: center;
+    margin: 30px 0;
+    color: #8b0000;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
